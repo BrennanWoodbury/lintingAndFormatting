@@ -1,5 +1,5 @@
-# Overview
-<br>
-<br>
+# Linting and Formatting Files
 
-I like using Ruff as my linter and formatter, and then using basedpyright for autocomplete, that's what I have setup here. I like the granularity that ruff provides. 
+
+This is where I store all my linting and formatting dotfiles and configuration files. 
+Please see each directory for a more indepth view. 
