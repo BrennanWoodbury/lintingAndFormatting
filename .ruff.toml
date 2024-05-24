@@ -1,0 +1,11 @@
+target-version = "py310"
+respect-gitignore = true
+extend = "~/.config/ruff/ruff.toml"
+
+[lint]
+select = ["E","F","UP","B","SIM", "I", "Q", "PD","PLE", "PLR", "PERF","RUF"]
+fixable = ["ALL"]
+ignore = ["UP032", "UP004"] # "ANN" as well if you want type checking off
+indent-style = "space"
+quote-style = "double"
+line-ending = "auto"
